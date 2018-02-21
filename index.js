@@ -2,7 +2,7 @@ const Skyweb = require('skyweb');
 const Eris = require("eris");
 const credentials = require('./credentials.json');
 
-const discord = new Eris(credentials.discordtoken, {autoreconnect: true, restMode: true});
+const discord = new Eris(credentials.discordToken, {autoreconnect: true, restMode: true});
 const webSkype = new Skyweb();
 const guidId = credentials.discordServerId;
 const botId = credentials.discordBotId;
