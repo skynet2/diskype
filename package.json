@@ -1,0 +1,31 @@
+{
+  "name": "diskype",
+  "version": "0.0.5",
+  "description": "Skype to Discord bridge",
+  "main": "index.js",
+  "scripts": {
+  },
+  "dependencies": {
+    "eris": "^0.8.4",
+    "skyweb": "^0.4.1"
+  },
+  "contributors": [
+    {
+      "name": "Stas Dmytryshyn",
+      "url": "https://github.com/skynet2"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skynet2/diskype"
+  },
+  "bugs": {
+    "url": "https://github.com/skynet2/diskype/issues"
+  },
+  "keywords": [
+    "skype",
+    "discord",
+    "bridge"
+  ]
+}
